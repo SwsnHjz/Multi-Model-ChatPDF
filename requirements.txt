@@ -1,0 +1,15 @@
+flask
+flask-cors
+python-dotenv
+openai
+PyMuPDF
+scikit-learn
+google-generativeai
+together
+httpx
+python-docx 
+Flask-SQLAlchemy
+Flask-Bcrypt
+Flask-Login
+Flask-Mail
+Authlib

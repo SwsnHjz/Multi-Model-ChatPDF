@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Your Email</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .container { text-align: center; padding-top: 5rem; }
+        h1 { font-size: 2rem; }
+        p { font-size: 1.1rem; color: var(--color-text-secondary); }
+        .email-address { font-weight: bold; color: var(--color-accent); }
+        .home-link { display: inline-block; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+    <header class="top-bar">
+        <div class="logo">
+            <a href="/">
+                AI CHATPDF
+            </a>
+        </div>
+    </header>
+    <main class="container">
+        <h1>Almost there! Please check your email.</h1>
+        <p>We've sent an activation link to <span class="email-address">{{ email }}</span>.</p>
+        <p>You must click that link before you can log in. (Don't forget to check your spam folder!)</p>
+        <a href="{{ url_for('homepage') }}" class="login-button home-link">Back to Homepage</a>
+    </main>
+</body>
+</html>
