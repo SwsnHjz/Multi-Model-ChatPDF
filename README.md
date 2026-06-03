@@ -30,7 +30,8 @@ Seamlessly switches between multiple industry-leading LLMs based on user prefere
 *   **Database & Auth:** SQLite, Flask-SQLAlchemy, Flask-Bcrypt, Flask-Login, Authlib
 *   **Frontend:** HTML5, CSS3, JavaScript (ES6+)
 
-  ## Project Structure
+ ## 📂 Project Structure
+```text
 ├── app.py                  # Core Flask application and routing
 ├── models/                 # Isolated handlers for multi-LLM architecture
 │   ├── __init__.py         
@@ -38,12 +39,12 @@ Seamlessly switches between multiple industry-leading LLMs based on user prefere
 │   ├── gemini_handler.py   
 │   ├── mistral_handler.py   
 │   └── deepseek_handler.py 
-├── templates/              # HTML Templates (Chat, Login, Email Auth)
+├── templates/              # Jinja2 HTML Templates (Chat, Login, Email Auth)
 ├── static/                 # Custom CSS, JS (Theme toggling, Chat interactivity)
-├── uploads/                # The storage for incoming PDFs
+├── uploads/                # Ephemeral storage for incoming PDFs
 └── sessions/               # Secure, isolated JSON stores for vectorized document chunks
-
--How to Run Locally?
+```
+##How to Run Locally?
 
 1. Clone the Repository:
    git clone https://github.com/YourUsername/Multi-Model-ChatPDF.git
