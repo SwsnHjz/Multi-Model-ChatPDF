@@ -47,10 +47,15 @@ Seamlessly switches between multiple industry-leading LLMs based on user prefere
 ##How to Run Locally?
 
 1. Clone the Repository:
-   git clone https://github.com/YourUsername/Multi-Model-ChatPDF.git
+   ```bash
+   git clone https://github.com/SwsnHjz/Multi-Model-ChatPDF.git
+   ```
 2. Install dependencies:
+   ```bash
    pip install -r requirements.txt
+   ```
 3. Create a .env file in the root directory and add your API credentials:
+   ```env
    OPENAI_API_KEY=your_openai_key
    GEMINI_API_KEY=your_gemini_key
    MISTRAL_API_KEY=your_mistral_key
@@ -58,6 +63,9 @@ Seamlessly switches between multiple industry-leading LLMs based on user prefere
    FLASK_SECRET_KEY=your_secret_key
    GOOGLE_CLIENT_ID=your_google_id
    GOOGLE_CLIENT_SECRET=your_google_secret
+   ```
 4. Initialize the database and start the server:
+   ```bash
    flask run
+   ```
 
