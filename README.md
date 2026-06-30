@@ -4,6 +4,11 @@ This project implements a highly optimized Retrieval-Augmented Generation (RAG) 
 
 ## Core Features
 
+### Smart Features
+*   **Auto-Summarization:** The moment a PDF is uploaded, the system asynchronously parses the text and instantly generates a concise, highly accurate summary of the document.
+*   **Smart Suggested Questions:** Along with the summary, the AI analyzes the context and provides 3 clickable, suggested questions to help jumpstart the user's interaction with the file.
+*   **Global Site AI Assistant:** A dedicated, built-in AI chatbot trained specifically on the platform's internal documentation. It acts as a 24/7 customer support agent, answering user questions about how to navigate and use the website in both Arabic and English.
+
 ### Model-Agnostic AI Architecture
 Seamlessly switches between multiple industry-leading LLMs based on user preference and task requirements:
 *   **GPT-4** (OpenAI)
